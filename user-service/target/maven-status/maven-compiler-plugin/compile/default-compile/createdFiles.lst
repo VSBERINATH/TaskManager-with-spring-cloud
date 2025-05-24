@@ -1,0 +1,6 @@
+com\taskmanager\userservice\controller\UserController.class
+com\taskmanager\userservice\UserServiceApplication.class
+com\taskmanager\userservice\config\SecurityConfig.class
+com\taskmanager\userservice\entity\User.class
+com\taskmanager\userservice\service\UserService.class
+com\taskmanager\userservice\repository\UserRepository.class

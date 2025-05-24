@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "Task Manager Task Service",
+    "_postman_id": "456e7890-e89b-12d3-a456-426614174001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Task",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\": \"Finish Demo\", \"description\": \"Prepare Task Manager demo\", \"status\": \"OPEN\", \"assignedUser\": \"testuser\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/tasks",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "tasks"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Task",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/tasks/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "tasks", "1"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
