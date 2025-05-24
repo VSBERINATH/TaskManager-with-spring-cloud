@@ -1,0 +1,1 @@
+Its a ROLE BASED ACCESS SYSTEM where a user can register himself and assigns a task for himself. Admin he's the one who can access all other user tasks and modify if required it was achieved using JWT.
